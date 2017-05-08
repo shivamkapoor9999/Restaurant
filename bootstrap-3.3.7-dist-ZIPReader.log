@@ -1,0 +1,47 @@
+[07-04-2017 19:04:39] ZIP Reader Version 14.00.0010 Build 1029
+[07-04-2017 19:04:39] Loading D:\bootstrap\bootstrap-3.3.7-dist.zip
+	0 errors/warnings
+[07-04-2017 19:04:39] Finished.
+[07-04-2017 19:04:39] Extracting D:\bootstrap\bootstrap-3.3.7-dist.zip
+	Unstoring D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.css
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.css.map
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css.map
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.css
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.css.map
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css.map
+		CRC32 verified
+	Unstoring D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.eot
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.svg
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.ttf
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2
+		CRC32 verified
+	Unstoring D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.js
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js
+		CRC32 verified
+	Inflating D:\bootstrap\bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\npm.js
+		CRC32 verified
+	Extracted 19 file(s)/folder(s)
+	Skipped 0 file(s)/folder(s)
+	0 errors/warnings
+[07-04-2017 19:04:39] Finished.

@@ -1,0 +1,254 @@
+
+body{
+	font-size: 16px;
+	background-color: #61122f;
+	color:#fff;
+	font-family: 'Oxygen', sans-serif;
+}
+/* header */
+#header_nav{
+   border-radius: 0px;
+   background-color: #f6b319;
+   border: 0px;
+
+}
+#logo{
+	background: url(../images/restaurant-logo.png) no-repeat;
+	width:150px;
+	height:150px;
+	margin:10px;
+}
+.navbar-default{
+	background-image: none;
+}
+#res-name a {
+	text-transform: uppercase;
+	font-family: 'Lora', serif;
+	font-size: 150%;
+	color:#557c3e;
+	text-shadow: 1px 1px 1px #222;
+}
+#res-name a:hover{
+	text-decoration: none;
+}
+#cer span{
+	text-transform: uppercase;
+	font-family: 'Lora', serif;
+	color:#557c3e;
+	text-shadow: 1px 1px 1px #222;
+}
+#res-name{
+	margin-top: 20px;
+	padding-bottom: 5px;
+
+}
+#navlist{
+	margin-top:20px;
+}
+#navlist li a,#navlist li span{
+	color:#c61e24;
+	text-align: center;
+}
+#navlist a:hover{
+	background-color: white;
+}
+#navlist div span{
+	font-size: 150%;
+}
+#mobile{
+	font-size: 150%;
+	padding-right: 0px;
+	padding-bottom:5px;
+}
+#msg{
+	text-align: right;
+	color:#557c3e;
+}
+#cer img{
+	font-size: 60%;
+	margin-bottom: 8px;
+}
+#header_nav button.navbar-toggle,#header_nav .icon-bar{
+	border: 1px solid #c61e24;
+}
+#header_nav button.navbar-toggle{
+	margin-top: 30px;
+}
+@media(min-width:768px)
+{
+ .container .jumbotron{
+		background:url(../jumbotron_992.jpg) no-repeat;
+		width:100%;
+		height:600px;
+		padding:0px;
+
+	}
+}
+@media(min-width: 1200px)
+{
+	.container .jumbotron{
+		background:url(../jumbotron_1200.jpg) no-repeat;
+		width:100%;
+		height:600px;
+
+		
+	}
+}
+@media(min-width: 992px)and(max-width: 1199px)
+{
+	/*.container .jumbotron{
+		background:url(../jumbotron_992.jpg) no-repeat;
+		width:100%;
+		height:600px;
+	}*/
+}
+@media(min-width: 768px)and(max-width: 991px)
+{
+	/*.container .jumbotron{
+		background:url(../jumbotron_992.jpg) no-repeat;
+		width:100%;
+		height:600px;
+	}*/
+}
+@media (min-width:401px) and (max-width:767px)
+{
+	#cer{
+		clear:left;
+		margin-left:10px;
+	}
+	#navlist li a,#navlist li span{
+		width:30%;
+		margin:0px auto;
+	}
+	#res-name{
+		/*font-size: 95%;*/
+		font-size: 3vw;
+	}
+	#logo{
+	background: url(../images/restaurant-logo_medium.png) no-repeat;
+	width:100px;
+	height:100px;
+	margin:10px;
+    }
+    #header_nav button.navbar-toggle{
+		
+	}
+	.container .jumbotron{
+		
+		padding:0px;
+
+	}
+	#menu-tile,#specials-tile{
+		width:360px;
+		margin:0px auto;
+	}
+	#hours,#cmt,#address{
+		text-align:center;
+	}
+	
+
+}
+@media (max-width:400px)
+{
+	#logo{
+	background: url(../images/restaurant-logo_small.png) no-repeat;
+	width:50px;
+	height:50px;
+	margin:
+    }
+    #res-name{
+		/*font-size: 80%;*/
+		font-size: 3vw;
+		margin-top:10px;
+	}
+	#header_nav button.navbar-toggle{
+		margin-top:20px;
+		padding:6px;
+	}
+	#navlist li a,#navlist li span{
+		width:30%;
+		margin:0px auto;
+	}
+	#navlist li a,#navlist li span{
+		font-size:90%;
+	}
+	.container .jumbotron{
+		
+		padding:0px;
+
+	}
+	#hours,#cmt,#address{
+		
+		text-align:center;
+	}
+	
+}
+#call-btn{
+	width:165px;
+	border:2px solid #f6b319;
+	margin:0px auto;
+	background-color: #f6b319;
+	border-radius: 10px;
+}
+.btn{
+	color:#557c3e;
+	text-shadow: 1px 1px 1px #222;
+	font-size: 130%;
+	font-weight: bold;
+
+}
+
+
+#menu-tile,#specials-tile,#map-tile{
+	height:250px;
+	position:relative;
+	margin-bottom: 15px;
+	overflow:hidden;
+}
+#menu-tile:hover,#specials-tile:hover,#map-tile:hover{
+	border: 3px solid #222;
+}
+#menu-tile{
+	background:url("../images/menu-tile.jpg") no-repeat;
+	background-position: center;
+}
+#specials-tile{
+	background:url("../images/specials-tile.jpg") no-repeat;
+	background-position: center;
+}
+#menu-tile span,#specials-tile span,#map-tile span{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#fff;
+	background-color: #000;
+	opacity:0.8;
+	width:100%;
+	text-align:center;
+	text-transform: uppercase;
+	font-size:120%;
+}
+
+footer{
+	background-color: #363636;
+}
+#cmt>p{
+	margin-top:20px;
+}
+#cmt p{
+	font-style:italic;
+}
+#address p{
+	color:#557c3e;
+	font-weight: bold;
+}
+hr{
+	width:40%;
+
+}
+#copy p{
+	width:200px;
+	margin:0px auto;
+	line-height: 100px;
+	text-align: center;
+}

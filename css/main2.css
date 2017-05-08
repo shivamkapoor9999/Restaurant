@@ -1,0 +1,53 @@
+#lunch,#specials-tile,#map-tile{
+	height:200px;
+	position:relative;
+	margin-bottom: 15px;
+	overflow:hidden;
+	margin:20px 10px;
+}
+#lunch:hover,#specials-tile:hover,#map-tile:hover{
+	border: 3px solid #222;
+}
+@media(min-width:768px)
+{
+#lunch{
+	background:url("../images/menu-tile.jpg") no-repeat;
+	background-position: center;
+}
+#specials-tile{
+	background:url("../images/specials-tile.jpg") no-repeat;
+	background-position: center;
+}
+}
+#lunch span,#specials-tile span,#map-tile span{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	color:#fff;
+	background-color: #000;
+	opacity:0.8;
+	width:100%;
+	text-align:center;
+	text-transform: uppercase;
+	font-size:120%;
+}
+.container>h2{
+	width:250px;
+	margin:20px auto;
+}
+@media(max-width: 767px)
+{
+	#lunch,#specials-tile{
+		width:70%;
+		height:40%;
+		margin:20px auto;
+	}
+	#lunch img{
+		width:100%;
+	}
+	.container h2{
+		font-size:4.2vw;
+		text-align: center;
+		padding-bottom: -20px;
+	}
+}
